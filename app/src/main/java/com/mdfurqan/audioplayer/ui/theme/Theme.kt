@@ -80,7 +80,7 @@ private val DarkColors = darkColorScheme(
 )
 
 @Composable
-fun JetAudioTheme(
+fun AudioPlayerTheme(
     useDarkTheme: Boolean = isSystemInDarkTheme(),
     content: @Composable() () -> Unit
 ) {
